@@ -1,0 +1,16 @@
+Address     Code        Basic                        Line Source
+
+0x00400000  0x00000093  addi x1,x0,0                 2    addi x1, x0, 0         # x1 = 0 (inicializar x1)
+0x00400004  0x00500113  addi x2,x0,5                 3    addi x2, x0, 5         # x2 = 5
+0x00400008  0x018001ef  jal x3,0x00000018            4    jal x3, swapp             # x3 = PC+4, PC = PC+24 (saltar a PC+24)
+0x0040000c  0x0000a203  lw x4,0(x1)                  5    lw x4, 0(x1)           # x4 = MEM[x1 + 0]
+0x00400010  0x00012283  lw x5,0(x2)                  6    lw x5, 0(x2)           # x5 = MEM[x2 + 0]
+0x00400014  0x00522333  slt x6,x4,x5                 7    slt x6, x4, x5         # x6 = (x4 < x5) ? 1 : 0
+0x00400018  0x00000e63  beq x0,x0,0x0000001c         8    beq x0, x0, END         # if (x0 == x0) PC = PC+28 (siempre salta)
+0x0040001c  0x06300393  addi x7,x0,0x00000063        9    addi x7, x0, 99        # x7 = 99
+0x00400020  0x0000a403  lw x8,0(x1)                  11   lw x8, 0(x1)           # x8 = MEM[x1 + 0]
+0x00400024  0x00012483  lw x9,0(x2)                  12   lw x9, 0(x2)           # x9 = MEM[x2 + 0]
+0x00400028  0x0090a023  sw x9,0(x1)                  13    sw x9, 0(x1)           # MEM[x1 + 0] = x9
+0x0040002c  0x00812023  sw x8,0(x2)                  14   sw x8, 0(x2)           # MEM[x2 + 0] = x8 (swap)
+0x00400030  0x00018067  jalr x0,x3,0                 15   jalr x0, 0(x3)        # PC = x3 + 24, x0 = PC+4 (retorno)
+0x00400034  0x00000013  addi x0,x0,0                 17   addi x0, x0, 0

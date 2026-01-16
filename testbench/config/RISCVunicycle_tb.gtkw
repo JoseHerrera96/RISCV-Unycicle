@@ -1,0 +1,142 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Nov 04 20:58:59 2025
+[*]
+[dumpfile] "C:\Users\joseh\Downloads\Github\CodeChallenge.PartLengthCalculation\proyecto2-grupo-9\RISCVunicycle_tb.vcd"
+[dumpfile_mtime] "Tue Nov 04 19:47:29 2025"
+[dumpfile_size] 13393
+[savefile] "C:\Users\joseh\Downloads\Github\CodeChallenge.PartLengthCalculation\proyecto2-grupo-9\testbench\RISCVunicycle_tb.gtkw"
+[timestart] 0
+[size] 1920 1057
+[pos] -1 -1
+*-14.000000 38990 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] RISCVunicycle_tb.
+[treeopen] RISCVunicycle_tb.dut.
+[treeopen] RISCVunicycle_tb.dut.datapath.
+[sst_width] 197
+[signals_width] 261
+[sst_expanded] 1
+[sst_vpaned_height] 314
+@200
+-
+-
+-
+-
+@20000
+-
+-
+@200
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+@28
+RISCVunicycle_tb.dut.datapath.clk
+RISCVunicycle_tb.dut.datapath.rst
+@200
+-
+@22
+RISCVunicycle_tb.PCreg[31:0]
+RISCVunicycle_tb.dut.datapath.PCNext[31:0]
+@200
+-
+@22
+RISCVunicycle_tb.instr[31:0]
+@28
+RISCVunicycle_tb.dut.funct3[2:0]
+@22
+RISCVunicycle_tb.dut.funct7[6:0]
+@200
+-
+@22
+RISCVunicycle_tb.dut.datapath.regfile.a1[4:0]
+RISCVunicycle_tb.dut.datapath.regfile.a2[4:0]
+RISCVunicycle_tb.dut.datapath.regfile.a3[4:0]
+RISCVunicycle_tb.dut.datapath.regfile.rd1[31:0]
+RISCVunicycle_tb.dut.datapath.regfile.rd2[31:0]
+@200
+-
+@22
+RISCVunicycle_tb.dut.datapath.ImmExt[31:0]
+@200
+-
+@28
+RISCVunicycle_tb.dut.datapath.ALUSrc
+@22
+RISCVunicycle_tb.dut.datapath.SrcA[31:0]
+RISCVunicycle_tb.dut.datapath.SrcB[31:0]
+@200
+-
+@22
+RISCVunicycle_tb.dut.ALUControl[3:0]
+RISCVunicycle_tb.dut.ALUResult[31:0]
+@28
+RISCVunicycle_tb.dut.datapath.zero
+RISCVunicycle_tb.dut.datapath.comparison
+@200
+-
+@28
+RISCVunicycle_tb.dut.RegWrite
+RISCVunicycle_tb.dut.ResultSrc[1:0]
+@22
+RISCVunicycle_tb.dut.datapath.Result[31:0]
+@200
+-
+@29
+RISCVunicycle_tb.dut.datapath.RegWrite
+@22
+RISCVunicycle_tb.dut.WriteData[31:0]
+RISCVunicycle_tb.dut.datapath.ReadData[31:0]
+@200
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0

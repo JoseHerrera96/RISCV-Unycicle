@@ -1,0 +1,122 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Fri Nov 07 04:57:05 2025
+[*]
+[dumpfile] "C:\Users\joseh\Downloads\Github\CodeChallenge.PartLengthCalculation\proyecto2-grupo-9\dump_gls.vcd"
+[dumpfile_mtime] "Fri Nov 07 04:56:58 2025"
+[dumpfile_size] 21939
+[savefile] "C:\Users\joseh\Downloads\Github\CodeChallenge.PartLengthCalculation\proyecto2-grupo-9\testbench\top_tb.gtkw"
+[timestart] 0
+[size] 1920 1057
+[pos] -1 -1
+*-15.000000 324300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top_gls.
+[treeopen] tb_top_gls.dut.
+[treeopen] tb_top_gls.dut.rv_unicycle.
+[treeopen] tb_top_gls.dut.rv_unicycle.datapath.
+[sst_width] 46
+[signals_width] 180
+[sst_expanded] 0
+[sst_vpaned_height] 303
+@28
+tb_top_gls.clk
+tb_top_gls.dut.rv_unicycle.rst
+@22
+tb_top_gls.dut.rv_unicycle.datapath.PC[31:0]
+tb_top_gls.dut.rv_unicycle.instr[31:0]
+tb_top_gls.dut.rv_unicycle.opcode[6:0]
+tb_top_gls.dut.rv_unicycle.funct7[6:0]
+@28
+tb_top_gls.dut.rv_unicycle.funct3[2:0]
+@200
+-
+@22
+tb_top_gls.dut.rv_unicycle.datapath.regfile.a1[4:0]
+tb_top_gls.dut.rv_unicycle.datapath.regfile.a2[4:0]
+tb_top_gls.dut.rv_unicycle.datapath.regfile.a3[4:0]
+@200
+-
+@22
+tb_top_gls.dut.rv_unicycle.datapath.regfile.rd1[31:0]
+tb_top_gls.dut.rv_unicycle.datapath.regfile.rd2[31:0]
+tb_top_gls.dut.rv_unicycle.datapath.regfile.wd3[31:0]
+@28
+tb_top_gls.dut.rv_unicycle.datapath.regfile.we3
+@200
+-
+@22
+tb_top_gls.dut.rv_unicycle.datapath.ImmExt[31:0]
+@28
+tb_top_gls.dut.rv_unicycle.ctrl_unit.ALUSrc
+@22
+tb_top_gls.dut.rv_unicycle.datapath.SrcA[31:0]
+tb_top_gls.dut.rv_unicycle.datapath.SrcB[31:0]
+@200
+-
+@28
+tb_top_gls.dut.rv_unicycle.ctrl_unit.ALUOp[1:0]
+@22
+tb_top_gls.dut.rv_unicycle.datapath.ALUControl[3:0]
+tb_top_gls.dut.rv_unicycle.ALUResult[31:0]
+@28
+tb_top_gls.dut.rv_unicycle.zero
+@200
+-
+-
+@22
+tb_top_gls.dut.rv_unicycle.WriteData[31:0]
+@c00022
+tb_top_gls.dut.data_mem.a[31:0]
+@28
+(0)tb_top_gls.dut.data_mem.a[31:0]
+(1)tb_top_gls.dut.data_mem.a[31:0]
+(2)tb_top_gls.dut.data_mem.a[31:0]
+(3)tb_top_gls.dut.data_mem.a[31:0]
+(4)tb_top_gls.dut.data_mem.a[31:0]
+(5)tb_top_gls.dut.data_mem.a[31:0]
+(6)tb_top_gls.dut.data_mem.a[31:0]
+(7)tb_top_gls.dut.data_mem.a[31:0]
+(8)tb_top_gls.dut.data_mem.a[31:0]
+(9)tb_top_gls.dut.data_mem.a[31:0]
+(10)tb_top_gls.dut.data_mem.a[31:0]
+(11)tb_top_gls.dut.data_mem.a[31:0]
+(12)tb_top_gls.dut.data_mem.a[31:0]
+(13)tb_top_gls.dut.data_mem.a[31:0]
+(14)tb_top_gls.dut.data_mem.a[31:0]
+(15)tb_top_gls.dut.data_mem.a[31:0]
+(16)tb_top_gls.dut.data_mem.a[31:0]
+(17)tb_top_gls.dut.data_mem.a[31:0]
+(18)tb_top_gls.dut.data_mem.a[31:0]
+(19)tb_top_gls.dut.data_mem.a[31:0]
+(20)tb_top_gls.dut.data_mem.a[31:0]
+(21)tb_top_gls.dut.data_mem.a[31:0]
+(22)tb_top_gls.dut.data_mem.a[31:0]
+(23)tb_top_gls.dut.data_mem.a[31:0]
+(24)tb_top_gls.dut.data_mem.a[31:0]
+(25)tb_top_gls.dut.data_mem.a[31:0]
+(26)tb_top_gls.dut.data_mem.a[31:0]
+(27)tb_top_gls.dut.data_mem.a[31:0]
+(28)tb_top_gls.dut.data_mem.a[31:0]
+(29)tb_top_gls.dut.data_mem.a[31:0]
+(30)tb_top_gls.dut.data_mem.a[31:0]
+(31)tb_top_gls.dut.data_mem.a[31:0]
+@1401200
+-group_end
+@28
+tb_top_gls.MemWrite
+@200
+-
+@28
+tb_top_gls.dut.data_mem.en
+@22
+tb_top_gls.dut.rv_unicycle.ReadData[31:0]
+@200
+-
+@28
+tb_top_gls.dut.rv_unicycle.datapath.RegWrite
+@22
+tb_top_gls.dut.rv_unicycle.datapath.Result[31:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

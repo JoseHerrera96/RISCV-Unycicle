@@ -1,0 +1,62 @@
+# ────────────────
+# Archivos de sistema
+# ────────────────
+.DS_Store
+Thumbs.db
+
+# ────────────────
+# Python (por si se usan scripts auxiliares)
+# ────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# ────────────────
+# Docker
+# ────────────────
+*.tar
+*.img
+*.log
+
+# ────────────────
+# Archivos de simulación
+# ────────────────
+work/
+sim_output/
+# TechLibs/
+transcript
+*.vcd
+*.vvp
+*.out
+*.qdb
+*history_sta
+NanGate_15nm_OCL_v0.1_2014_06.A
+*.zip
+
+# ────────────────
+# Archivos de síntesis (Yosys, OpenLane, Quartus, etc.)
+# ────────────────
+*.blif
+*.edif
+*.sdf
+*.svf
+*.bit
+*.bin
+*.gds
+results/
+runs/
+
+# ────────────────
+# Backups y temporales
+# ────────────────
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ────────────────
+*.txt
